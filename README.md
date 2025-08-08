@@ -1,58 +1,47 @@
-# 💻 Code Nest
+# 🪶 Code Nest
 
-**Code Nest** is a lightweight desktop GUI application built with Python's `tkinter` library. Its primary purpose is to store and organize code snippets in various file formats inside a dedicated directory on the user's machine.
-
----
-
-## 🚀 App Concept
-
-The application provides a simple environment where users can:
-
-- **Create new files** with any extension (`.py`, `.java`, `.txt`, `.md`, etc.).
-- **Edit file content** through an integrated editor.
-- **Save and update changes** directly to the file.
-- **View a list of files** stored in a dedicated folder under the user's home directory (`~/my-code-vault`).
-- **Add initial content** while creating a new file.
-- **Use keyboard shortcuts** to improve productivity.
+**Code Nest** is a lightweight, local code editor built with Python's `tkinter` library.  
+It provides a simple yet powerful environment for writing, editing, organizing, and running your code — all stored neatly in a dedicated folder on your system.
 
 ---
 
-## 🧠 Key Features
+## ✨ Features
 
-### ✅ Split UI Layout
+- **📁 Local Code Vault**  
+  Stores all your files in a dedicated directory (`~/my-code-vault`) for quick access and organization.
 
-- **Left Panel:** Displays all files inside the application's storage folder.
-- **Right Panel:** A powerful code editor with word wrapping, dark theme styling, and monospace programming fonts.
+- **🗂 Multi-Tab Editor**  
+  Open and work on multiple files at once using a clean tabbed interface.
 
-### ✍️ File Creation
+- **📜 Sidebar File Explorer**  
+  Quickly switch between your saved files with a collapsible sidebar.
 
-When clicking the **`+ New File`** button:
-- A popup window appears asking for:
-  - File name.
-  - File extension.
-  - Optional initial content.
-- The new file is saved inside `~/my-code-vault`.
+- **💾 Auto Save**  
+  Automatically saves all open files every 60 seconds to prevent data loss.
 
-### 💾 Save & Update
+- **🖥 Run Code Instantly**  
+  Execute Python files directly from the editor and view output in a separate console window.
 
-- You can update the currently open file by clicking the **`Update`** button.
-- Or use the shortcut **`Ctrl + S`** to save quickly.
+- **🎨 Light/Dark Themes**  
+  Toggle between a comfortable dark mode and a clean light mode.
 
-### ⌨️ Supported Shortcuts
+- **🔍 Search & Highlight**  
+  Search for specific text in the current file with highlighted results.
 
-| Shortcut         | Action                    |
-|------------------|----------------------------|
-| `Ctrl + S`       | Save the current file      |
-| `Ctrl + A`       | Select all text            |
-| `Ctrl + Z`       | Undo                       |
-| `Ctrl + Y`       | Redo                       |
-| `Ctrl + C`       | Copy                       |
-| `Ctrl + X`       | Cut                        |
-| `Ctrl + D`       | Duplicate the current line |
+- **⌨ Keyboard Shortcuts**  
+  - `Ctrl + S` → Save  
+  - `Ctrl + F` → Search text  
+  - `Ctrl + A` → Select all  
+  - `Ctrl + Z / Ctrl + Y` → Undo / Redo  
+  - `Ctrl + X / Ctrl + C / Ctrl + V` → Cut / Copy / Paste  
+  - `Ctrl + D` → Duplicate line  
+
+- **🛠 Editing Tools**  
+  Undo/redo, line duplication, and instant status bar updates for line & column position.
 
 ---
 
-## 📁 Storage Directory
+## 📂 Project Structure
 
-- All files are automatically saved in a dedicated folder at:
+When you run the application, it will automatically create:
 
